@@ -1,5 +1,3 @@
-ItemDisplay[NMAG (aqv OR cqv)]: // hides regular arrows/bolts
-
 ItemDisplay[!ID ETH ELT]: %NAME% %TEAL%eth //any elite item
 ItemDisplay[!ID ETH WP6]: %NAME% %TEAL%eth //JAV and CL7 / ZON
 
@@ -7,6 +5,24 @@ ItemDisplay[!ID ETH (MAG or RARE) (crs OR cr9 OR wax OR 9wa)]: %NAME% %CORAL%eth
 ItemDisplay[ED>400]: %NAME% %CORAL%high ed %ED%
 
 ItemDisplay[GEMLEVEL>3]: %SAGE%%NAME%
-ItemDisplay[MAPTIER>0]: %SAGE%%NAME%
+ItemDisplay[ID MAPTIER>0]: %SAGE%%NAME%
+
+ItemDisplay[NMAG (aqv OR cqv) AND CLVL>10]: // hides regular blunt arrows/light bolts
+
+ItemDisplay[(tpfs OR tpfm OR tpfl) AND CLVL>30]: // hides fulminating, exploding, oil potions
+ItemDisplay[(tpgs OR tpgm OR tpgl) AND CLVL>30]: // hides strangling, choking, rancid potions
+ItemDisplay[(tpcs OR tpcm OR tpcl) AND CLVL>30]: // hides chilling, frost, freezing potions
+ItemDisplay[(tpls OR tplm OR tpll) AND CLVL>30]: // hides charged, static, shock potions
+ItemDisplay[NMAG QUIVER AND CLVL>30]: // hides all types of arrows/bolts
+
+ItemDisplay[WEAPON NORM (SET OR UNI)]: %NAME%{%NAME% %GRAY%Upg with Ral+Sol+%GREEN%P.Emerald}
+ItemDisplay[WEAPON EXC (SET OR UNI)]: %NAME%{%NAME% %GRAY%Upg with Lum+Pul+%GREEN%P.Emerald}
+ItemDisplay[WEAPON NORM (RARE OR CRAFT)]: %NAME%{%NAME% %GRAY%Upg with Ort+Amn+%BLUE%P.Sapphire}
+ItemDisplay[WEAPON EXC (RARE OR CRAFT)]: %NAME%{%NAME% %GRAY%Upg with Fal+Um+%BLUE%P.Sapphire}
+
+ItemDisplay[ARMOR NORM (SET OR UNI)]: %NAME%{%NAME% %GRAY%Upg with Tal+Shael+%WHITE%P.Diamond}
+ItemDisplay[ARMOR NORM (RARE OR CRAFT)]: %NAME%{%NAME% %GRAY%Upg with Ral+Thul+%PURPLE%P.Amethyst}
+ItemDisplay[ARMOR EXC (SET OR UNI)]: %NAME%{%NAME% %GRAY%Upg with Ko+Lem+%WHITE%P.Diamond}
+ItemDisplay[ARMOR EXC (RARE OR CRAFT)]: %NAME%{%NAME% %GRAY%Upg with Ko+Pul+%PURPLE%P.Amethyst}
 
 ItemDisplay[]: %NAME% 
