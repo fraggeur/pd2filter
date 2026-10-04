@@ -7,6 +7,6 @@ ItemDisplay[!ID ETH (MAG or RARE) (crs OR cr9 OR wax OR 9wa)]: %NAME% %CORAL%eth
 ItemDisplay[ED>400]: %NAME% %CORAL%high ed %ED%
 
 ItemDisplay[GEMLEVEL>3]: %SAGE%%NAME%
-ItemDisplay[MAPTIER>0]: %SAGE%%NAME%
+ItemDisplay[ID MAPTIER>0]: %SAGE%%NAME%
 
 ItemDisplay[]: %NAME% 
