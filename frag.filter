@@ -1,7 +1,9 @@
+ItemDisplay[]: %NAME%{%WHITE%Item level: %ILVL% %NAME%}%CONTINUE%
 ItemDisplay[!ID ETH ELT]: %NAME% %TEAL%eth //any elite item
 ItemDisplay[!ID ETH WP6]: %NAME% %TEAL%eth //JAV and CL7 / ZON
+ItemDisplay[!ID ETH (NORM or EXC)]: %NAME% %GRAY%eth //normal and exceptional items
 
-ItemDisplay[!ID ETH (MAG or RARE) (crs OR cr9 OR wax OR 9wa)]: %NAME% %CORAL%eth
+ItemDisplay[!ID ETH (MAG or RARE) AND (crs OR cr9 OR wax OR 9wa)]: %NAME% %CORAL%eth
 ItemDisplay[ED>400]: %NAME% %CORAL%high ed %ED%
 
 ItemDisplay[GEMLEVEL>3]: %SAGE%%NAME%
@@ -25,4 +27,4 @@ ItemDisplay[ARMOR NORM (RARE OR CRAFT)]: %NAME%{%NAME% %GRAY%Upg with Ral+Thul+%
 ItemDisplay[ARMOR EXC (SET OR UNI)]: %NAME%{%NAME% %GRAY%Upg with Ko+Lem+%WHITE%P.Diamond}
 ItemDisplay[ARMOR EXC (RARE OR CRAFT)]: %NAME%{%NAME% %GRAY%Upg with Ko+Pul+%PURPLE%P.Amethyst}
 
-ItemDisplay[]: %NAME% 
+//ItemDisplay[]: %NAME% 
